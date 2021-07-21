@@ -1,8 +1,8 @@
 <!--
  * @Author: 
  * @Date: 2021-07-16 18:40:13
- * @LastEditors: 
- * @LastEditTime: 2021-07-21 19:28:51
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-07-21 19:30:36
  * @Description: 
 -->
 # react-vite2-template
@@ -14,35 +14,34 @@
 1.路由介绍，src/routes/RouteConfig.tsx
 
 ````
-    const routes: IRoute[] = [
-        {
-            path: '/',
-            Component: Home,
-        },
-    ];
-   
+const routes: IRoute[] = [
+    {
+        path: '/',
+        Component: Home,
+    },
+];
  ````
     
 2.全局状态管理，src/store/index.tsx
 
 ````
-    // initialState 对象中为全局对象初始化的地方
-   const initialState: stateType = {
-        userInfo: {},
-    };
+//  initialState 为全局对象初始化的地方
+const initialState: stateType = {
+    userInfo: {},
+};
 
-    // 组件中使用变量及修改方式如下: 
-    import { Store } from "@/store";
+//  组件中使用变量及修改方式如下: 
+import { Store } from "@/store";
 
-    const { state, dispatch } = useContext(Store);
-    const userInfo  = state.userInfo;
+const { state, dispatch } = useContext(Store);
+const userInfo  = state.userInfo;
 
-    dispatch({
-        value: {
-            ...state,
-            userInfo: userInfo
-        }
-    });
+dispatch({
+    value: {
+        ...state,
+        userInfo: userInfo
+    }
+});
     
 ````
 
@@ -74,15 +73,15 @@ npm run server
  ## 代码提交
 
  ```
-    feature: 开发新的功能
-    fix: 修复bug
-    refactor: 代码重构
-    docs: 文档修改
-    style: 代码格式修改, 注意不是 css 修改
-    test: 测试用例修改
-    perf: 改善性能
-    build: 变更项目构建或外部依赖（例如: webpack、package等）
-    revert: 代码回退
+feature: 开发新的功能
+fix: 修复bug
+refactor: 代码重构
+docs: 文档修改
+style: 代码格式修改, 注意不是 css 修改
+test: 测试用例修改
+perf: 改善性能
+build: 变更项目构建或外部依赖（例如: webpack、package等）
+revert: 代码回退
 ```
 
  ## 注意事项
