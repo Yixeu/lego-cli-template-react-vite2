@@ -2,7 +2,7 @@
  * @Author: 
  * @Date: 2021-07-16 18:40:13
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2021-07-21 19:30:36
+ * @LastEditTime: 2021-07-21 19:33:18
  * @Description: 
 -->
 # react-vite2-template
@@ -32,6 +32,7 @@ const initialState: stateType = {
 
 //  组件中使用变量及修改方式如下: 
 import { Store } from "@/store";
+import { useContext } from 'react';
 
 const { state, dispatch } = useContext(Store);
 const userInfo  = state.userInfo;
@@ -75,6 +76,7 @@ npm run server
  ```
 feature: 开发新的功能
 fix: 修复bug
+update：功能更新
 refactor: 代码重构
 docs: 文档修改
 style: 代码格式修改, 注意不是 css 修改
@@ -85,6 +87,8 @@ revert: 代码回退
 ```
 
  ## 注意事项
+
+*尽量使用FC组件开发业务，否则无法支持hooks
 
 *对于react 新人欢迎使用hooooks 工具库来理解在FC组件中如何使用hooks替代生命周期
 
