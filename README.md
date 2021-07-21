@@ -2,7 +2,7 @@
  * @Author: 
  * @Date: 2021-07-16 18:40:13
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2021-07-21 19:33:18
+ * @LastEditTime: 2021-07-21 19:38:23
  * @Description: 
 -->
 # react-vite2-template
@@ -55,7 +55,7 @@ dispatch({
 npm install
 
 # serve with hot reload at localhost:3000
-npm run dev || npm start
+npm run dev | npm start
 
 # build for production with minification
 npm run build
