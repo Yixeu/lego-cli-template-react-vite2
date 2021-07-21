@@ -1,0 +1,80 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add path
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EINVAL: invalid argument, unlink '/Users/congxin/Desktop/react-vite/node_modules/@babel/helper-compilation-targets/node_modules/semver'
+
+npm manifest: 
+  {
+      "name": "template-react-vite",
+      "version": "0.0.1",
+      "scripts": {
+          "dev": "vite",
+          "build": "vite build",
+          "serve": "vite preview"
+      },
+      "dependencies": {
+          "@types/react-transition-group": "^4.4.0",
+          "antd": "^4.13.1",
+          "axios": "^0.19.2",
+          "dingtalk-jsapi": "^2.8.33",
+          "history": "^4.10.1",
+          "hooooks": "^1.0.10",
+          "lodash-es": "^4.17.15",
+          "react": "^16.12.0",
+          "react-dom": "^16.12.0",
+          "react-router-dom": "^5.1.2",
+          "react-transition-group": "^4.4.1"
+      },
+      "devDependencies": {
+          "@commitlint/cli": "^9.1.1",
+          "@commitlint/config-conventional": "^9.1.1",
+          "@types/lodash-es": "^4.17.3",
+          "@types/react": "^16.9.16",
+          "@types/react-dom": "^16.9.4",
+          "@types/react-router-dom": "^5.1.3",
+          "@typescript-eslint/eslint-plugin": "^3.4.0",
+          "@typescript-eslint/parser": "^3.4.0",
+          "@vitejs/plugin-react-refresh": "^1.3.1",
+          "autoprefixer": "^9.7.4",
+          "css-loader": "^3.3.2",
+          "eslint": "^7.3.1",
+          "eslint-plugin-react-hooks": "^3.0.0",
+          "file-loader": "^6.0.0",
+          "happypack": "^5.0.1",
+          "husky": "^4.2.5",
+          "less": "^4.1.1",
+          "less-loader": "^5.0.0",
+          "lint-staged": "^10.2.11",
+          "mini-css-extract-plugin": "^0.9.0",
+          "postcss-loader": "^3.0.0",
+          "prettier": "^2.0.5",
+          "source-map-loader": "^0.2.4",
+          "stylelint": "^13.6.1",
+          "stylelint-prettier": "^1.1.2",
+          "ts-import-plugin": "^1.6.2",
+          "ts-loader": "^8.0.1",
+          "typescript": "^3.9.5",
+          "url-loader": "^4.1.0",
+          "vconsole": "^3.3.4",
+          "vite": "^2.0.5"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
