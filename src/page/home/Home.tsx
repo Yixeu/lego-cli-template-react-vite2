@@ -16,6 +16,7 @@ const Home = () => {
         account: 'admin',
         pwd: '123456',
       });
+      console.info(res)
     } catch (e) {
       console.error('1123');
     }
