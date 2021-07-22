@@ -1,17 +1,3 @@
-/*
- * @Author:
- * @Date: 2021-07-16 18:40:13
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2021-07-21 12:39:51
- * @Description:
- */
-/*
- * @Author: adam.cong
- * @Date: 2020-08-13 14:17:37
- * @Description:
- * @LastUpdate:
- * @LastEditTime: 2021-07-21 12:36:21
- */
 import * as React from 'react';
 import {
   HashRouter as Router,

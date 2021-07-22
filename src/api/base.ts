@@ -1,10 +1,3 @@
-/*
- * @Author: adam.cong
- * @Date: 2020-08-11 16:51:36
- * @Description:
- * @LastUpdate:
- * @LastEditTime: 2021-07-21 14:38:31
- */
 import axios from 'axios';
 import { message } from 'antd';
 import { AxiosResponse } from 'axios';

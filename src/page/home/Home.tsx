@@ -1,10 +1,3 @@
-/*
- * @Author: 
- * @Date: 2021-07-21 12:25:53
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2021-07-21 16:58:15
- * @Description: 
- */
 import React, { useLayoutEffect } from 'react';
 import { ComponentHead } from '@/components';
 import { useDidMount } from 'hooooks';

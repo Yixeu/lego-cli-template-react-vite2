@@ -1,10 +1,3 @@
-/*
- * @Author:
- * @Date: 2021-07-16 18:40:13
- * @LastEditors:
- * @LastEditTime: 2021-07-21 14:27:14
- * @Description:
- */
 import React, { createContext, useReducer } from 'react';
 
 const Store = createContext({

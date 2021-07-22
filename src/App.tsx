@@ -1,10 +1,3 @@
-/*
- * @Author: adam.cong
- * @Date: 2020-08-11 16:49:44
- * @Description:
- * @LastUpdate:
- * @LastEditTime: 2021-07-21 17:07:31
- */
 import React from 'react';
 import RouteConfig from '@/routes/RouteConfig';
 import { useDidMount } from 'hooooks';

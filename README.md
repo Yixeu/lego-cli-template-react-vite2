@@ -1,10 +1,3 @@
-<!--
- * @Author: 
- * @Date: 2021-07-16 18:40:13
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2021-07-22 11:46:48
- * @Description: 
--->
 # react-vite2-template
 
 > react-vite2-template是@lego-cli/web端模版，使用antd作为组件库，lodash作为工具库
@@ -92,5 +85,5 @@ revert: 代码回退
 
 *对于react 新人欢迎使用hooooks 工具库来理解在FC组件中如何使用hooks替代生命周期
 
-
+*目前只支持一种模板，后续迭代增加新的模板类型
 

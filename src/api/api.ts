@@ -1,10 +1,3 @@
-/*
- * @Author: adam.cong
- * @Date: 2019-12-24 18:29:41
- * @Description:
- * @LastUpdate:
- * @LastEditTime: 2021-07-21 14:37:16
- */
 import { request } from '@/api/base';
 
 //  post 请求处理方法

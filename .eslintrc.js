@@ -1,10 +1,3 @@
-/*
- * @Author: 
- * @Date: 2021-07-21 15:16:28
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2021-07-21 17:28:46
- * @Description: 
- */
 'use strict'
 module.exports = {
   env: {
