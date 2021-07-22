@@ -2,7 +2,7 @@
  * @Author: 
  * @Date: 2021-07-16 18:40:13
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2021-07-21 19:38:23
+ * @LastEditTime: 2021-07-22 11:46:48
  * @Description: 
 -->
 # react-vite2-template
@@ -67,7 +67,7 @@ npm run eslint
 npm run stylelint
 
 # preview build
-npm run server
+npm run serve
 ```
 
 
